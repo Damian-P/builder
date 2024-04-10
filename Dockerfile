@@ -1,4 +1,4 @@
-FROM node:lts-bullseye
+FROM node:lts
 
 RUN dpkg --add-architecture i386
 RUN apt-get update
